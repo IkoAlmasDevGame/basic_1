@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Happy Wedding</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="card bg-body-secondary" id="card-top">
+            <div class="card-header">
+                <div class="row">
+                    <a href="" class="text-decoration-none img-thumbnail text-black">
+                        <img src="Zia-Doni-4.jpeg" alt="Logo-Zia-Doni" class="navbar-brand rounded" style="width: 64px;">
+                        <button class="btn" style="margin-left: 24rem;
+                        margin-bottom: 5rem;" onclick="location.href='index.html'">
+                        🔃
+                        </button>  
+                        <a href="#Our_Gallery" class="btn btn-link text-decoration-none d-flex justify-content-start text-black">Our Gallery</a>  
+                        <a href="#beri_ucapan" class="btn btn-link text-decoration-none d-flex justify-content-start text-black">Beri Ucapan</a>  
+                        <a href="#ending" class="btn btn-link text-decoration-none d-flex justify-content-start text-black">Ucapan Terakhir</a>  
+                        <div class="card-footer mt-1"></div>
+                        <h4 class="text-black fw-normal text-center mb-1">Happy Wedding</h4>
+                        <h4 class="text-black fw-normal text-center" style="font-size: large;">Zia & Doni</h4>
+                        <div class="card-footer"></div>
+                        <p class="card-text">
+                        Assalamualaikum Warahmatullahi Wabarakatuh
+                        Maha suci Allah SWT yang telah menciptakan makhluk-NYA berpasang-pasangan. Untuk mengikuti Sunnah Rasul-Mu dalam rangka membentuk keluarga yang sakinah, mawaddah, warahmah. Maka ijinkanlah kami menikahkannya. Ya Allah perkenankan kami merangkaikan kasih sayang yang kau ciptakan diantara putra-putri kami.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="row" id="Our_Gallery">
+                <label for="" class="fw-bold mt-1" style="margin-left: 2rem; font-size: medium;">Our Gallery</label>
+                <div class="card-body" id="responsive_scroll">
+                    <div>
+                        <img src="Zia-Doni-1.jpeg" class="photo_1 img-thumbnail rounded" alt="Zia-Doni-1" width="180" height="180">
+                        <img src="Zia-Doni-2.jpeg" class="photo_2 img-thumbnail rounded" alt="Zia-Doni-2" width="180" height="180">
+                        <img src="Zia-Doni-3.jpeg" class="photo_3 img-thumbnail rounded mt-3" alt="Zia-Doni-1" width="180" height="180">
+                        <img src="Zia-Doni-4.jpeg" class="photo_4 img-thumbnail rounded mt-3" alt="Zia-Doni-2" width="180" height="180">
+                        <img src="Zia-Doni-5.jpeg" class="photo_5 img-thumbnail rounded mt-3" alt="Zia-Doni-1" width="180" height="180">
+                        <img src="Zia-Doni-6.jpeg" class="photo_6 img-thumbnail rounded mt-3" alt="Zia-Doni-2" width="180" height="180">
+                    </div>
+                    <button onclick="showMessage()" type="button" class="button mt-2 mb-2">
+                        Click Here Suprise For You !
+                    </button>
+                    <div class="card-footer">
+                        <div id="message" style="display:none">
+                            <div class="card-group">
+                                <div class="card-text">
+                                    <p class="text-center">
+                                        May your love story be as magical and charming as in fairy tales. Congratulations on your wedding!
+                                    </p>
+                                    <img src="Zia-Doni-4.jpeg" alt="Zia-Doni-4" width="180" height="180" class="img-thumbnail photo_7">
+                                    <p class="text-center">
+                                        Semoga Kalian Berdua (Fauziah dan Doni Setiawan) Untill Jannah, sakinah mawaddah warahmah
+                                    </p>
+                                    <p class="text-center">
+                                        سكينة مودة ورحمة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="card-group" id="beri_ucapan">
+                        <label for="">BERI UCAPAN</label>
+                        <form action="index.html" method="post">
+                            <div class="card d-flex" style="width: 500px;">
+                                <div class="card-header">
+                                    <label for="InputName" class="">Nama Anda : </label>
+                                    <input type="text" name="" id="InputName" class="form-control w-100 mt-0">
+                                    <label for="InputKomentar" class="">Komentar Anda : </label>
+                                    <textarea name="" id="InputKomentar" class="form-control" maxlength="1000"></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default" style="font: 500 18px;">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <section id="ending">
+                            <img src="Zia-Doni-2.jpeg" alt="Zia-Doni-2" width="480" height="480" class="img-thumbnail">
+                            <p class="card-text text-center mt-4">
+                                Thank You
+                                <p class="card-subtitle text-center">
+                                    ------ Zia ♥ Doni ------
+                                </p>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

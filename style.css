@@ -1,0 +1,66 @@
+:root {
+    margin :0;
+    padding: 0;
+}
+
+#responsive_scroll {
+    overflow: auto;
+}
+
+#card-top {
+    width: 34rem;
+}
+
+.photo_1 {
+    margin-left: 2rem;
+}
+
+.photo_2 {
+    margin-left: 5.2rem;
+
+}
+.photo_3 {
+    margin-left: 2rem;
+}
+
+.photo_4 {
+    margin-left: 5.5rem;
+}
+
+.photo_5 {
+    margin-left: 2rem;
+}
+
+.photo_6 {
+    margin-left: 5.2rem;
+}
+
+.photo_7 {
+    margin-left: 10rem;    
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+ .button {
+    font-size: 24px;
+    color: #fff;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+    margin-left: 6rem;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  #message {
+    margin-top: 30px;
+  }
